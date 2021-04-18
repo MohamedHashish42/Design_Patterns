@@ -20,7 +20,7 @@ For each patterns category, you will find
 
 ![Creational Design Pattern](https://user-images.githubusercontent.com/81900786/115156069-dedab580-a082-11eb-816d-5d7f59d800bb.png)
 
-## Second Repositorey Design Pattern :
+## Second Repository Design Pattern :
 
 1. Non-Generic Repository Pattern
 2. Generic Repository Pattern
