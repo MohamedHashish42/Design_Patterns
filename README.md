@@ -18,13 +18,23 @@ For each patterns category, you will find
 6. Prototype Design Pattern
 7. Singleton Design Pattern
 
-![Creational Design Pattern](https://user-images.githubusercontent.com/81900786/114528802-9c137a80-9c49-11eb-83aa-d066d06f43dc.png)
+![Creational Design Pattern](https://user-images.githubusercontent.com/81900786/115156069-dedab580-a082-11eb-816d-5d7f59d800bb.png)
+
+## Second Repositorey Design Pattern :
+
+1. Non-Generic Repository Pattern
+2. Generic Repository Pattern
+3. Both Generic and Non-Generic Repository
+4. UnitOfWork With Repository Pattern
+
+
+![Repositorey Design Pattern](https://user-images.githubusercontent.com/81900786/115156135-2c572280-a083-11eb-9a5f-958a064e2904.png)
 
 In the coming days, I will push the other categories 
-
-Finally, I hope from God that it will be useful  
-
 
 The main source I have depended on it in this summary is
 
 https://dotnettutorials.net/course/dot-net-design-patterns/
+
+
+Finally, I hope from God that it will be useful  
