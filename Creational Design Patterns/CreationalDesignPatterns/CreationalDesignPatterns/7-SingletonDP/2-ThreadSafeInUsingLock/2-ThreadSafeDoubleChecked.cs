@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CreationalDesignPatterns.SingletonDP.ThreadSafeInUsingLock
+namespace CreationalDesignPatterns.SingletonDP
 {
-    class ThreadSafeDoubleChecked
+    public sealed class ThreadSafeDoubleChecked : ISingletoneObj
     {
         private static int counter = 0;
         private static readonly object Instancelock = new object();

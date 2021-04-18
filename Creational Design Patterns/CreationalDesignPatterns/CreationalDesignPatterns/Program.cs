@@ -79,6 +79,12 @@ namespace CreationalCreationalDesignPatterns
             // () => PrintFromDeveloper(ThreadSafe.GetInstance),
             // () => PrintFromTester(ThreadSafe.GetInstance)
             // );
+
+            //Parallel.Invoke(
+            // () => PrintFromDeveloper(ThreadSafeDoubleChecked.GetInstance),
+            // () => PrintFromTester(ThreadSafeDoubleChecked.GetInstance)
+            // );
+
             #endregion 3-ThreadSafeUsingEagerLoadingAndLazyKeyword
 
 
@@ -99,6 +105,7 @@ namespace CreationalCreationalDesignPatterns
             #endregion
 
         }
+
         #region Singleton Methods
         public static void PrintFromDeveloper(ISingletoneObj singletoneObj)
         {
