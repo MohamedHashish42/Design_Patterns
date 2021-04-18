@@ -27,14 +27,22 @@ For each patterns category, you will find
 3. Both Generic and Non-Generic Repository
 4. UnitOfWork With Repository Pattern
 
-
 ![Repositorey Design Pattern](https://user-images.githubusercontent.com/81900786/115156135-2c572280-a083-11eb-9a5f-958a064e2904.png)
+
+## Third Dependency Injection :
+
+1. Constructor Dependency Injection
+2. Property Dependency Injection
+3. Method Dependency Injection
+4. Dependency Injection using Unity Container in MVC
+
+![Dependency Injection](https://user-images.githubusercontent.com/81900786/115156854-a50bae00-a086-11eb-85e5-d7ff039d3f46.png)
 
 In the coming days, I will push the other categories 
 
 The main source I have depended on it in this summary is
 
-https://dotnettutorials.net/course/dot-net-design-patterns/
+## https://dotnettutorials.net/course/dot-net-design-patterns/
 
 
-Finally, I hope from God that it will be useful  
+## Finally, I hope from God that it will be useful  
