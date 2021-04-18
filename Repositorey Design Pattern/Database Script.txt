@@ -1,0 +1,25 @@
+-- Create EmployeeDB database
+CREATE DATABASE EmployeeDB
+GO
+USE EmployeeDB
+GO
+-- Create Employee Table
+CREATE TABLE Employee
+(
+  EmployeeID INT PRIMARY KEY IDENTITY(1,1),
+  Name VARCHAR(100),
+  Gender VARCHAR(100),
+  Salary INT,
+  Dept VARCHAR(50)
+)
+GO
+-- Populate some test data into Employee table
+INSERT INTO Employee VALUES('Mohamed', 'Male', 10000, 'IT' )
+INSERT INTO Employee VALUES('Omar', 'Male', 15000, 'HR' )
+INSERT INTO Employee VALUES('Sarah', 'Female', 22000, 'HR' )
+INSERT INTO Employee VALUES('Ali', 'Male', 20000, 'IT' )
+INSERT INTO Employee VALUES('Khadija', 'Female', 25000, 'IT' )
+INSERT INTO Employee VALUES('Aisha', 'Female', 20000, 'HR' )
+GO
+SELECT * FROM Employee
+GO
