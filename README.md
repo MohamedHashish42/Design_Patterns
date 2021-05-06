@@ -8,7 +8,7 @@ For each patterns category, you will find
 
 2. Simple console application contains an example for each pattern derived from a this category
 
-## First Creational Design Pattern :
+## First, Creational Design Pattern :
 
 1. Factory Design Pattern
 2. Factory Method Design Pattern
@@ -18,9 +18,9 @@ For each patterns category, you will find
 6. Prototype Design Pattern
 7. Singleton Design Pattern
 
-![Creational Design Pattern](https://user-images.githubusercontent.com/81900786/115156069-dedab580-a082-11eb-816d-5d7f59d800bb.png)
+![Creational Design Pattern](https://user-images.githubusercontent.com/81900786/117321200-38b5ea80-ae8d-11eb-9e62-1f4ba615d995.png)
 
-## Second Repository Design Pattern :
+## Second, Repository Design Pattern :
 
 1. Non-Generic Repository Pattern
 2. Generic Repository Pattern
@@ -29,7 +29,7 @@ For each patterns category, you will find
 
 ![Repositorey Design Pattern](https://user-images.githubusercontent.com/81900786/115156135-2c572280-a083-11eb-9a5f-958a064e2904.png)
 
-## Third Dependency Injection :
+## Third, Dependency Injection :
 
 1. Constructor Dependency Injection
 2. Property Dependency Injection
