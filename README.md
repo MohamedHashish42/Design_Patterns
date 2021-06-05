@@ -38,11 +38,24 @@ For each patterns category, you will find
 
 ![Dependency Injection](https://user-images.githubusercontent.com/81900786/115156854-a50bae00-a086-11eb-85e5-d7ff039d3f46.png)
 
+## Fourth Structural Design Pattern :
+
+1. Adapter Design Pattern
+2. Facade Design Pattern
+3. Decorator Design Pattern
+4. Bridge Design Pattern
+5. Composite Design Pattern
+6. Proxy Design Pattern
+7. Flyweight Design Pattern
+
+![Structural Design Patterns](https://user-images.githubusercontent.com/81900786/120889907-c3f6dd00-c5ff-11eb-8749-e0912ee8dc45.png)
+
 In the coming days, I will push the other categories 
 
 ## The main source I have depended on it in this summary is
 
 https://dotnettutorials.net/course/dot-net-design-patterns/
+
 
 
 ## Finally, I hope from God that it will be useful  
