@@ -59,11 +59,16 @@ https://dotnettutorials.net/course/dot-net-design-patterns/
 but in some cases, the previous site was not obvious enough so I have used  the 
 following sites also
 
-https://en.wikipedia.org/wiki/Design_Patterns/
+https://en.wikipedia.org/wiki/Design_Patterns
+
 https://www.geeksforgeeks.org/software-design-patterns
+
 https://www.dofactory.com/net/design-patterns
+
 https://refactoring.guru/design-patterns
+
 https://www.tutorialspoint.com/design_pattern
+
 https://www.c-sharpcorner.com/UploadFile/bd5be5/design-patterns-in-net
 
 
