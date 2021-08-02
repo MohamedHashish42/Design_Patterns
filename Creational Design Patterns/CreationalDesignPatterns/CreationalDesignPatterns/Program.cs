@@ -27,7 +27,7 @@ namespace CreationalCreationalDesignPatterns
             //ClientUseAbstractFactoryDP.UsingAbstractFactoryDP();
             #endregion
 
-            #region  4-Report Builder
+            #region  4-Builder DP
             //Report pdfReport = ReportDirector.MakeReport(new PDFReport());
             //pdfReport.DisplayReport();
 
