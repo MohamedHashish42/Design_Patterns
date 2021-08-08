@@ -8,7 +8,7 @@ For each patterns category, you will find
 
 2. Simple console application contains an example for each pattern derived from a this category
 
-## First: Creational Design Pattern 
+## First: Creational Design Patterns 
 
 1. Factory Design Pattern
 2. Factory Method Design Pattern
@@ -38,7 +38,7 @@ For each patterns category, you will find
 
 ![Dependency Injection](https://user-images.githubusercontent.com/81900786/115156854-a50bae00-a086-11eb-85e5-d7ff039d3f46.png)
 
-## Fourth: Structural Design Pattern 
+## Fourth: Structural Design Patterns 
 
 1. Adapter Design Pattern
 2. Facade Design Pattern
@@ -50,7 +50,7 @@ For each patterns category, you will find
 
 ![Structural Design Patterns](https://user-images.githubusercontent.com/81900786/120889907-c3f6dd00-c5ff-11eb-8749-e0912ee8dc45.png)
 
-## Fifth: of Behavioral Design Pattern 
+## Fifth: Behavioral Design Patterns
 
 1. Iterator Design Pattern
 2. Observer Design Pattern
