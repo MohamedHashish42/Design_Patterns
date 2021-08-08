@@ -52,23 +52,20 @@ For each patterns category, you will find
 
 ## Fifth: of Behavioral Design Pattern 
 
-1-Iterator Design Pattern
-2-Observer Design Pattern
-3-Chain of Responsibility Design Pattern
-4-State Design Pattern
-5-Template Method Design Pattern
-6-Command Design Pattern
-7-Visitor Design Pattern
-8-Strategy Design Pattern
-9-Interpreter Design Pattern
-10-Mediator Design Pattern
-11-Memento Design Pattern
+1. Iterator Design Pattern
+2. Observer Design Pattern
+3. Chain of Responsibility Design Pattern
+4. State Design Pattern
+5. Template Method Design Pattern
+6. Command Design Pattern
+7. Visitor Design Pattern
+8. Strategy Design Pattern
+9. Interpreter Design Pattern
+10. Mediator Design Pattern
+11. Memento Design Pattern
 
 ![Behavioral Design Pattern](https://user-images.githubusercontent.com/81900786/128635853-bd40b547-e62d-4776-a91e-df1ac777868f.png)
 
-
-
-In the coming days, I will push the other categories 
 
 ## The main source I have depended on it in this summary is
 
