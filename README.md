@@ -1,3 +1,6 @@
+#                                بسم الله الرحمن الرحيم
+
+
 # Design Patterns 
 
 This is a summary for Design Patterns in C#
