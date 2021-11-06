@@ -118,66 +118,35 @@ namespace StructuralDesignPatterns
             #endregion
             #endregion
 
-            #region Flyweight DP
-
-            //for (int i = 0; i < 3; i++)
-            //{
-            //    Circle circle = (Circle)ShapeFactory.GetShape("circle");
-            //    circle.SetColor(ConsoleColor.Red);
-            //    circle.Draw();
-            //}
-
-            //for (int i = 0; i < 3; i++)
-            //{
-            //    Circle circle = (Circle)ShapeFactory.GetShape("circle");
-            //    circle.SetColor(ConsoleColor.Green);
-            //    circle.Draw();
-            //}
-
-            //for (int i = 0; i < 3; ++i)
-            //{
-            //    Circle circle = (Circle)ShapeFactory.GetShape("circle");
-            //    circle.SetColor(ConsoleColor.Blue);
-            //    circle.Draw();
-            //}
-
-            //for (int i = 0; i < 3; ++i)
-            //{
-            //    Circle circle = (Circle)ShapeFactory.GetShape("circle");
-            //    circle.SetColor(ConsoleColor.Yellow);
-            //    circle.Draw();
-            //}
-            #endregion
-
             #region Flyweight
-            for (int i = 0; i < 3; i++)
-            {
-                Circle circle = (Circle)ShapeFactory.GetShape(SharedShapesNames.circle);
-                circle.Draw(ConsoleColor.Red);
-            }
-            Console.WriteLine("\n");
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    Circle circle = (Circle)ShapeFactory.GetShape(SharedShapesNames.circle);
+            //    circle.Draw(ConsoleColor.Red);
+            //}
+            //Console.WriteLine("\n");
 
-            for (int i = 0; i < 3; i++)
-            {
-                Circle circle = (Circle)ShapeFactory.GetShape(SharedShapesNames.circle);
-                circle.Draw(ConsoleColor.Gray);
-            }
-            Console.WriteLine("\n");
-
-
-            for (int i = 0; i < 5; i++)
-            {
-                Triangle triangle = (Triangle)ShapeFactory.GetShape(SharedShapesNames.triangle);
-                triangle.Draw(ConsoleColor.Yellow);
-            }
-            Console.WriteLine("\n");
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    Circle circle = (Circle)ShapeFactory.GetShape(SharedShapesNames.circle);
+            //    circle.Draw(ConsoleColor.Gray);
+            //}
+            //Console.WriteLine("\n");
 
 
-            for (int i = 0; i < 1; ++i)
-            {
-                Rectangle rectangle = new Rectangle();
-                rectangle.Draw(ConsoleColor.Green);
-            }
+            //for (int i = 0; i < 5; i++)
+            //{
+            //    Triangle triangle = (Triangle)ShapeFactory.GetShape(SharedShapesNames.triangle);
+            //    triangle.Draw(ConsoleColor.Yellow);
+            //}
+            //Console.WriteLine("\n");
+
+
+            //for (int i = 0; i < 1; ++i)
+            //{
+            //    Rectangle rectangle = new Rectangle();
+            //    rectangle.Draw(ConsoleColor.Green);
+            //}
             #endregion
 
 
