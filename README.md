@@ -1,3 +1,9 @@
+   
+ <H2 align="center">
+بسم الله الرحمن الرحيم
+</h2>
+
+
 # Design Patterns 
 
 This is a summary for Design Patterns in C#
@@ -87,4 +93,4 @@ https://www.tutorialspoint.com/design_pattern
 https://www.c-sharpcorner.com/UploadFile/bd5be5/design-patterns-in-net
 
 
-## Finally, I hope from God that it will be useful  
+## أخيرا أرجو من الله ان يكون نافعا
