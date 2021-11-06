@@ -11,7 +11,7 @@ namespace StructuralDesignPatterns.BridgeDP
             Console.WriteLine("a New Mercedes car was produced ");
         }
 
-        void IWorkshop.Assemble()
+        public void Assemble()
         {
             Console.WriteLine("the New Mercedes car was assembled");
         }
