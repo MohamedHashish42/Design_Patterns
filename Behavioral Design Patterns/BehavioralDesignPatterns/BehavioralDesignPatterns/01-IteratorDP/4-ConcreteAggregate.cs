@@ -6,7 +6,7 @@ namespace BehavioralDesignPatterns.IteratorDP
 {
     class ConcreteAggregate : IAggregate
     {
-        private List<employee> _listEmployees = new List<employee>();
+        private List<object> _elementsList = new List<object>();
 
         public Iterator CreateIterator()
         {
@@ -15,17 +15,17 @@ namespace BehavioralDesignPatterns.IteratorDP
 
         public int Count
         {
-            get { return _listEmployees.Count; }
+            get { return _elementsList.Count; }
         }
 
-        public void AddEmployee(employee employee)
+        public void AddElement(object employee)
         {
-            _listEmployees.Add(employee);
+            _elementsList.Add(employee);
         }
 
-        public employee GetEmployee(int IndexPosition)
+        public object GetElement(int IndexPosition)
         {
-            return _listEmployees[IndexPosition];
+            return _elementsList[IndexPosition];
         }
     }
 }

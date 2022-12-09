@@ -6,8 +6,8 @@ namespace BehavioralDesignPatterns.IteratorDP
 {
     interface IIterator
     {
-        employee First();
-        employee Next();
+        object First();
+        object Next();
         bool HasNext();
     }
 }

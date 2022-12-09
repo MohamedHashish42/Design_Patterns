@@ -7,7 +7,7 @@ namespace BehavioralDesignPatterns.IteratorDP
     class Iterator : IIterator
     {
         private ConcreteAggregate collection;
-        private int current = 0;
+        private int index = 0;
         private int step = 1;
 
         public Iterator(ConcreteAggregate collection)
@@ -15,18 +15,18 @@ namespace BehavioralDesignPatterns.IteratorDP
             this.collection = collection;
         }
 
-        public employee First()
+        public object First()
         {
-            current = 0;
-            return collection.GetEmployee(current);
+            index = 0;
+            return collection.GetElement(index);
         }
 
-        public employee Next()
+        public object Next()
         {
-            current += step;
+            index += step;
             if (HasNext())
             {
-                return collection.GetEmployee(current);
+                return collection.GetElement(index);
             }
             else
             {
@@ -36,7 +36,8 @@ namespace BehavioralDesignPatterns.IteratorDP
 
         public bool HasNext()
         {
-            return current < collection.Count;
+            return index < collection.Count;
         }
+
     }
 }

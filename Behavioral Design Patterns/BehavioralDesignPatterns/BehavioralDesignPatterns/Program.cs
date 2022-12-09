@@ -20,20 +20,21 @@ namespace BehavioralDesignPatterns
         static void Main(string[] args)
         {
             #region 1- Iterator DP
-
             //ConcreteAggregate collection = new ConcreteAggregate();
-            //collection.AddEmployee(new employee("Mohamed", 100));
-            //collection.AddEmployee(new employee("Ali", 101));
-            //collection.AddEmployee(new employee("Ahmed", 102));
-            //collection.AddEmployee(new employee("Fatima", 103));
-            //collection.AddEmployee(new employee("Mahmoud", 104));
-            //collection.AddEmployee(new employee("khadija", 105));
+            //collection.AddElement(new employee("Mohamed", 100));
+            //collection.AddElement(new employee("Ali", 101));
+            //collection.AddElement(new employee("Ahmed", 102));
+            //collection.AddElement(new employee("Fatima", 103));
+            //collection.AddElement(new employee("Mahmoud", 104));
+            //collection.AddElement(new employee("khadija", 105));
 
             //Iterator iterator = collection.CreateIterator();
 
             //Console.WriteLine("Iterating over collection:");
 
-            //for (employee emp = iterator.First(); iterator.HasNext(); emp = iterator.Next())
+            //for (employee emp = (employee)iterator.First();
+            //    iterator.HasNext();
+            //    emp = (employee)iterator.Next())
             //{
             //    Console.WriteLine($"ID : {emp.ID} & Name : {emp.Name}");
             //}
@@ -203,24 +204,6 @@ namespace BehavioralDesignPatterns
     }
 }
 
-
-#region draft
-//List<Employee> collection = new List<Employee>();
-//collection.Add(new Employee("Mohamed", 100));
-//collection.Add(new Employee("Ali", 101));
-//collection.Add(new Employee("Ahmed", 102));
-//collection.Add(new Employee("Fatima", 103));
-//collection.Add(new Employee("Mahmoud", 104));
-//collection.Add(new Employee("khadija", 105));
-//foreach (Employee emp in collection)
-//{
-//    Console.WriteLine($"ID : {emp.ID} & Name : {emp.Name}");
-//}
-#endregion
-/*
-     
-
- */
 
 
 
