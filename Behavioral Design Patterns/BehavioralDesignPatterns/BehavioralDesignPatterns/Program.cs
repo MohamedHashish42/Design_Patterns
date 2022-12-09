@@ -183,12 +183,12 @@ namespace BehavioralDesignPatterns
             //// First Step
             //originator.FirstName = "Mohamed";
             //originator.SecondName = "Ahmed";
-            //caretaker.CreateMemento("FirstStep", originator.CreateMemento());
+            //caretaker.AddMemento("FirstStep", originator.CreateMemento());
 
 
             //// Second Step
             //originator.Age = 26;
-            //caretaker.CreateMemento("SecondStep", originator.CreateMemento());
+            //caretaker.AddMemento("SecondStep", originator.CreateMemento());
 
 
             //Console.WriteLine("\nOrignator current state \n: "
