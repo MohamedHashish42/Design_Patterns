@@ -24,7 +24,11 @@ namespace CreationalCreationalDesignPatterns
             #endregion
 
             #region  3-Abstract Factory DP
-            //ClientUseAbstractFactoryDP.UsingAbstractFactoryDP();
+
+
+            Client client = new Client(new NikeClothesFactory());
+
+
             #endregion
 
             #region  4-Builder DP

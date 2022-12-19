@@ -4,12 +4,12 @@ using System.Text;
 
 namespace CreationalDesignPatterns.AbstractFactoryDP
 {
-    class AbstractFactoryDP
+    class Client
     {
         private readonly IShirt _shirt;
         private readonly ITrousers _trousers;
 
-        public AbstractFactoryDP(IClothesFactory factory)
+        public Client(IClothesFactory factory)
         {
             _shirt = factory.CreateShirt();
             _trousers = factory.CreateTrousers();
@@ -17,3 +17,6 @@ namespace CreationalDesignPatterns.AbstractFactoryDP
 
     }
 }
+
+
+
