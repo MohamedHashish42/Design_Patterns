@@ -24,19 +24,25 @@ namespace CreationalCreationalDesignPatterns
             #endregion
 
             #region  3-Abstract Factory DP
-
-
-            Client client = new Client(new NikeClothesFactory());
-
-
+            // Client client = new Client(new NikeClothesFactory());
             #endregion
 
             #region  4-Builder DP
-            //Report pdfReport = ReportDirector.MakeReport(new PDFReport());
+
+            //var reportDirector = new ReportDirector();
+
+            //var pdfReportBuilder = new PDFReportBuilder();
+            //reportDirector.MakeReport(pdfReportBuilder);
+            //var pdfReport = pdfReportBuilder.GetReport();
             //pdfReport.DisplayReport();
 
-            //Report excelReport = ReportDirector.MakeReport(new ExcelReport());
+            //Console.WriteLine("\n");
+
+            //var excelReportBuilder = new ExcelReportBuilder();
+            //reportDirector.MakeReport(excelReportBuilder);
+            //var excelReport = excelReportBuilder.GetReport();
             //excelReport.DisplayReport();
+
             #endregion
 
             #region 5-Fluent Interface
