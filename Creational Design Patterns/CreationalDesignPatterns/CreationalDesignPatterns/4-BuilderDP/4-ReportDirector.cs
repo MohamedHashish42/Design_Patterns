@@ -6,17 +6,12 @@ namespace CreationalDesignPatterns.BuilderDP
 {
     class ReportDirector
     {
-
-        public static Report MakeReport(ReportBuilder reportBuilder)
+        public void MakeReport(ReportBuilder reportBuilder)
         {
-            reportBuilder.CreateNewReport();
-
             reportBuilder.SetReportType();
             reportBuilder.SetReportHeader();
             reportBuilder.SetReportContent();
             reportBuilder.SetReportFooter();
-
-            return reportBuilder.GetReport();
         }
     }
 }
