@@ -80,6 +80,8 @@ https://dotnettutorials.net/course/dot-net-design-patterns/
 but in some cases, the previous site was not obvious enough so I have used  the 
 following sites also
 
+https://springframework.guru/gang-of-four-design-patterns/
+
 https://en.wikipedia.org/wiki/Design_Patterns
 
 https://www.geeksforgeeks.org/software-design-patterns
