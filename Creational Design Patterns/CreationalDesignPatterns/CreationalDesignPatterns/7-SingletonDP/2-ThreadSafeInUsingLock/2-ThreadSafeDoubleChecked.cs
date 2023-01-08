@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CreationalDesignPatterns.SingletonDP
 {
-    public sealed class ThreadSafeDoubleChecked : ISingletoneObj
+    public sealed class ThreadSafeDoubleChecked : ISingletonObj
     {
         private static int counter = 0;
         private static readonly object Instancelock = new object();

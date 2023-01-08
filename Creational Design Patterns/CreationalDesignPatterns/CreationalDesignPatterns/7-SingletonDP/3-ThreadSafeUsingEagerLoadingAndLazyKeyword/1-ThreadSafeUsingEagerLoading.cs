@@ -6,7 +6,7 @@ namespace CreationalDesignPatterns.SingletonDP
 
 {
 
-    public sealed class ThreadSafeUsingEagerLoading : ISingletoneObj
+    public sealed class ThreadSafeUsingEagerLoading : ISingletonObj
     {
         private static int counter = 0;
         private ThreadSafeUsingEagerLoading()

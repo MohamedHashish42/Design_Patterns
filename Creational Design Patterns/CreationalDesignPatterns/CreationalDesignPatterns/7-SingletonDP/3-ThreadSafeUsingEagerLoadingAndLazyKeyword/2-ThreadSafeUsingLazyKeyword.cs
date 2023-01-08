@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CreationalDesignPatterns.SingletonDP
 {
-    public sealed class ThreadSafeUsingLazyKeyword : ISingletoneObj
+    public sealed class ThreadSafeUsingLazyKeyword : ISingletonObj
     {
         private static int counter = 0;
         private ThreadSafeUsingLazyKeyword()

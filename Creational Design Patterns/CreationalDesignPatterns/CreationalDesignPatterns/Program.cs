@@ -78,8 +78,8 @@ namespace CreationalCreationalDesignPatterns
             #region 7-SingletonDP
             #region 1- NoThreadSafe
 
-            PrintFromDeveloper(NoThreadSafe.GetInstance);
-            PrintFromTester(NoThreadSafe.GetInstance);
+            //PrintFromDeveloper(NoThreadSafe.GetInstance);
+            //PrintFromTester(NoThreadSafe.GetInstance);
 
             #region NoThreadSafe Multithreaded Environment
             //Parallel.Invoke(
@@ -103,16 +103,16 @@ namespace CreationalCreationalDesignPatterns
             #endregion 3-ThreadSafeUsingEagerLoadingAndLazyKeyword
             #region 3-ThreadSafeUsingEagerLoadingAndLazyKeyword
             #region 1-ThreadSafeUsingEagerLoading
-            //Parallel.Invoke(
-            //() => PrintFromDeveloper(ThreadSafeUsingEagerLoading.GetInstance),
-            //() => PrintFromTester(ThreadSafeUsingEagerLoading.GetInstance)
-            //);
+            Parallel.Invoke(
+            () => PrintFromDeveloper(ThreadSafeUsingEagerLoading.GetInstance),
+            () => PrintFromTester(ThreadSafeUsingEagerLoading.GetInstance)
+            );
             #endregion
             #region 2-ThreadSafeUsingLazyKeywords
-            //Parallel.Invoke(
-            //() => PrintFromDeveloper(ThreadSafeUsingLazyKeyword.GetInstance),
-            //() => PrintFromTester(ThreadSafeUsingLazyKeyword.GetInstance)
-            //);
+            Parallel.Invoke(
+            () => PrintFromDeveloper(ThreadSafeUsingLazyKeyword.GetInstance),
+            () => PrintFromTester(ThreadSafeUsingLazyKeyword.GetInstance)
+            );
             #endregion
             #endregion
             #endregion
@@ -120,11 +120,11 @@ namespace CreationalCreationalDesignPatterns
         }
 
         #region Singleton Methods
-        public static void PrintFromDeveloper(ISingletoneObj singletoneObj)
+        public static void PrintFromDeveloper(ISingletonObj singletoneObj)
         {
             singletoneObj.PrintDetails("From Developer");
         }
-        public static void PrintFromTester(ISingletoneObj singletoneObj)
+        public static void PrintFromTester(ISingletonObj singletoneObj)
         {
             singletoneObj.PrintDetails("From Tester");
         }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CreationalDesignPatterns.SingletonDP
 { 
-    public sealed class NoThreadSafe :ISingletoneObj
+    public sealed class NoThreadSafe :ISingletonObj
     {
         private static int counter = 0;
 

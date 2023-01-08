@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CreationalDesignPatterns.SingletonDP
 {
-    interface ISingletoneObj
+    interface ISingletonObj
     {
         public void PrintDetails(string message);
     }
