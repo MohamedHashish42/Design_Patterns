@@ -78,10 +78,15 @@ namespace CreationalCreationalDesignPatterns
             #region 7-SingletonDP
             #region 1- NoThreadSafe
 
-            //NoThreadSafe fromTeachaer = NoThreadSafe.GetInstance;
-            //fromTeachaer.PrintDetails("From Teacher");
-            //NoThreadSafe fromStudent = NoThreadSafe.GetInstance;
-            //fromStudent.PrintDetails("From Student");
+            PrintFromDeveloper(NoThreadSafe.GetInstance);
+            PrintFromTester(NoThreadSafe.GetInstance);
+
+            #region NoThreadSafe Multithreaded Environment
+            //Parallel.Invoke(
+            // () => PrintFromDeveloper(NoThreadSafe.GetInstance),
+            // () => PrintFromTester(NoThreadSafe.GetInstance)
+            // );
+            #endregion
             #endregion
 
             #region 2- ThreadSafeInUsingLock
@@ -96,8 +101,6 @@ namespace CreationalCreationalDesignPatterns
             // );
 
             #endregion 3-ThreadSafeUsingEagerLoadingAndLazyKeyword
-
-
             #region 3-ThreadSafeUsingEagerLoadingAndLazyKeyword
             #region 1-ThreadSafeUsingEagerLoading
             //Parallel.Invoke(
