@@ -64,15 +64,34 @@ namespace CreationalCreationalDesignPatterns
             #endregion
 
             #region 6-Prototype
-            //Student student = new Student();
-            //student.Name = "Mohamed";
-            //student.Department = "IT";
-            //Student emp2 = student.GetClone();
-            //emp2.Name = "Ahmed";
+            #region without Prototype
+
+            //Student student1 = new Student();
+            //student1.Name = "Mohamed";
+            //student1.Department = "IT";
+            //Student student2 = student1;
+            //student2.Name = "Ahmed";
             //Console.WriteLine("Student 1: ");
-            //Console.WriteLine("Name: " + student.Name + ", Department: " + student.Department);
+            //Console.WriteLine("Name: " + student1.Name);  // Name: Ahmed
             //Console.WriteLine("Student 2: ");
-            //Console.WriteLine("Name: " + emp2.Name + ", Department: " + emp2.Department);
+            //Console.WriteLine("Name: " + student2.Name);  // Name: Ahmed
+
+            #endregion
+
+            #region With Prototype
+
+            //Student student3 = new Student();
+            //student3.Name = "Mohamed";
+            //student3.Department = "IT";
+            //Student student4 = student3.GetClone();
+            //student4.Name = "Ahmed";
+            //Console.WriteLine("Student 1: ");
+            //Console.WriteLine("Name: " + student3.Name );  // Name: Mohamed
+            //Console.WriteLine("Student 2: ");
+            //Console.WriteLine("Name: " + student4.Name);   //Name: Ahmed
+
+
+            #endregion
             #endregion
 
             #region 7-SingletonDP
@@ -103,16 +122,16 @@ namespace CreationalCreationalDesignPatterns
             #endregion 3-ThreadSafeUsingEagerLoadingAndLazyKeyword
             #region 3-ThreadSafeUsingEagerLoadingAndLazyKeyword
             #region 1-ThreadSafeUsingEagerLoading
-            Parallel.Invoke(
-            () => PrintFromDeveloper(ThreadSafeUsingEagerLoading.GetInstance),
-            () => PrintFromTester(ThreadSafeUsingEagerLoading.GetInstance)
-            );
-            #endregion
-            #region 2-ThreadSafeUsingLazyKeywords
-            Parallel.Invoke(
-            () => PrintFromDeveloper(ThreadSafeUsingLazyKeyword.GetInstance),
-            () => PrintFromTester(ThreadSafeUsingLazyKeyword.GetInstance)
-            );
+            //Parallel.Invoke(
+            //() => PrintFromDeveloper(ThreadSafeUsingEagerLoading.GetInstance),
+            //() => PrintFromTester(ThreadSafeUsingEagerLoading.GetInstance)
+            //);
+            //#endregion
+            //#region 2-ThreadSafeUsingLazyKeywords
+            //Parallel.Invoke(
+            //() => PrintFromDeveloper(ThreadSafeUsingLazyKeyword.GetInstance),
+            //() => PrintFromTester(ThreadSafeUsingLazyKeyword.GetInstance)
+            //);
             #endregion
             #endregion
             #endregion
