@@ -1,4 +1,6 @@
 ﻿using BehavioralDesignPatterns.IteratorDP;
+//using BehavioralDesignPatterns.IteratorDP.UsingArrayList;
+using BehavioralDesignPatterns.IteratorDP.UsingList;
 using BehavioralDesignPatterns.ObserverDP;
 using BehavioralDesignPatterns.ChainOfResponsibility;
 using BehavioralDesignPatterns.StateDP;
@@ -11,7 +13,7 @@ using BehavioralDesignPatterns.MediatorDP;
 using System;
 using System.Collections.Generic;
 using BehavioralDesignPatterns.MementoDP;
-using BehavioralDesignPatterns.IteratorDP.UsingArrayList;
+
 
 namespace BehavioralDesignPatterns
 {
@@ -21,22 +23,24 @@ namespace BehavioralDesignPatterns
         static void Main(string[] args)
         {
             #region 1- Iterator DP
-            ConcreteAggregate list = new ConcreteAggregate();
-            list.AddElement(new Student("Mohamed", 100));
-            list.AddElement(new Student("Ali", 101));
-            list.AddElement(new Student("Ahmed", 102));
-            list.AddElement(new Student("Fatima", 103));
-            list.AddElement(new Student("Mahmoud", 104));
-            list.AddElement(new Student("khadija", 105));
-            Iterator iterator = list.CreateIterator();
+            //ConcreteAggregate collection = new ConcreteAggregate();  
+            //collection.AddElement(new Student("Mohamed", 100));
+            //collection.AddElement(new Student("Ali", 101));
+            //collection.AddElement(new Student("Ahmed", 102));
+            //collection.AddElement(new Student("Fatima", 103));
+            //collection.AddElement(new Student("Mahmoud", 104));
+            //collection.AddElement(new Student("khadija", 105));
+            //Iterator iterator = collection.CreateIterator();
 
-            Console.WriteLine("Iterating over list:");
-            for (Student emp = iterator.First(); iterator.HasNext(); emp = iterator.Next())
-            {
-                Console.WriteLine($"ID : {emp.ID} & Name : {emp.Name}");
-            }
+            //Console.WriteLine("Iterating over collection:");
 
-      
+            //for (Student s = iterator.First(); 
+            //    iterator.HasNext(); s = iterator.Next())
+            //{
+            //    Console.WriteLine($"ID : {s.ID} & Name : {s.Name}");
+            //}
+
+
             #endregion
 
             #region 2- Observer DP

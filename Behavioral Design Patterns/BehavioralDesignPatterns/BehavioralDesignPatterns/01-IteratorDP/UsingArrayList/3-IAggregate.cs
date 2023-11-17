@@ -1,4 +1,4 @@
-﻿namespace BehavioralDesignPatterns.IteratorDP.UsingList
+﻿namespace BehavioralDesignPatterns.IteratorDP.UsingArrayList
 {
     interface IAggregate
     {

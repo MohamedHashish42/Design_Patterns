@@ -1,10 +1,11 @@
-﻿
-using System.Collections.Generic;
-namespace BehavioralDesignPatterns.IteratorDP.UsingList
+﻿using System.Collections;
+
+
+namespace BehavioralDesignPatterns.IteratorDP.UsingArrayList
 {
     class ConcreteAggregate : IAggregate
     {
-        private List<Student> _StudentsList = new List<Student>();
+        private ArrayList _StudentsList = new ArrayList();
 
         public Iterator CreateIterator()
         {
@@ -18,13 +19,15 @@ namespace BehavioralDesignPatterns.IteratorDP.UsingList
 
         public void AddElement(Student student)
         {
-
             _StudentsList.Add(student);
         }
 
         public Student GetElement(int IndexPosition)
         {
-            return _StudentsList[IndexPosition];
+          
+            return  _StudentsList[IndexPosition] as Student;
         }
+
+       
     }
 }
