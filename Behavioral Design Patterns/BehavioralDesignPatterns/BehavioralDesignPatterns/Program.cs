@@ -11,6 +11,7 @@ using BehavioralDesignPatterns.MediatorDP;
 using System;
 using System.Collections.Generic;
 using BehavioralDesignPatterns.MementoDP;
+using BehavioralDesignPatterns.IteratorDP.UsingArrayList;
 
 namespace BehavioralDesignPatterns
 {
@@ -20,24 +21,22 @@ namespace BehavioralDesignPatterns
         static void Main(string[] args)
         {
             #region 1- Iterator DP
-            //ConcreteAggregate collection = new ConcreteAggregate();
-            //collection.AddElement(new employee("Mohamed", 100));
-            //collection.AddElement(new employee("Ali", 101));
-            //collection.AddElement(new employee("Ahmed", 102));
-            //collection.AddElement(new employee("Fatima", 103));
-            //collection.AddElement(new employee("Mahmoud", 104));
-            //collection.AddElement(new employee("khadija", 105));
+            ConcreteAggregate list = new ConcreteAggregate();
+            list.AddElement(new Student("Mohamed", 100));
+            list.AddElement(new Student("Ali", 101));
+            list.AddElement(new Student("Ahmed", 102));
+            list.AddElement(new Student("Fatima", 103));
+            list.AddElement(new Student("Mahmoud", 104));
+            list.AddElement(new Student("khadija", 105));
+            Iterator iterator = list.CreateIterator();
 
-            //Iterator iterator = collection.CreateIterator();
+            Console.WriteLine("Iterating over list:");
+            for (Student emp = iterator.First(); iterator.HasNext(); emp = iterator.Next())
+            {
+                Console.WriteLine($"ID : {emp.ID} & Name : {emp.Name}");
+            }
 
-            //Console.WriteLine("Iterating over collection:");
-
-            //for (employee emp = (employee)iterator.First();
-            //    iterator.HasNext();
-            //    emp = (employee)iterator.Next())
-            //{
-            //    Console.WriteLine($"ID : {emp.ID} & Name : {emp.Name}");
-            //}
+      
             #endregion
 
             #region 2- Observer DP

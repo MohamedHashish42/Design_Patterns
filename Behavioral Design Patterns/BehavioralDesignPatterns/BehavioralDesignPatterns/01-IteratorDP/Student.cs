@@ -4,14 +4,14 @@ using System.Text;
 
 namespace BehavioralDesignPatterns.IteratorDP
 {
-    class employee
+    class Student
     {
         public int ID { get; set; }
         public string Name { get; set; }
-        public employee(string name, int id)
+        public Student(string name, int id)
         {
-            Name = name;
             ID = id;
+            Name = name;
         }
     }
 }

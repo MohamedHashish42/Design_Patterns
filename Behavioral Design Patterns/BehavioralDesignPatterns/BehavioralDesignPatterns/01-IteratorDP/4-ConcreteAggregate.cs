@@ -1,12 +1,10 @@
-﻿using System;
+﻿
 using System.Collections.Generic;
-using System.Text;
-
 namespace BehavioralDesignPatterns.IteratorDP
 {
     class ConcreteAggregate : IAggregate
     {
-        private List<object> _elementsList = new List<object>();
+        private List<Student> _StudentsList = new List<Student>();
 
         public Iterator CreateIterator()
         {
@@ -15,17 +13,18 @@ namespace BehavioralDesignPatterns.IteratorDP
 
         public int Count
         {
-            get { return _elementsList.Count; }
+            get { return _StudentsList.Count; }
         }
 
-        public void AddElement(object employee)
+        public void AddElement(Student student)
         {
-            _elementsList.Add(employee);
+
+            _StudentsList.Add(student);
         }
 
-        public object GetElement(int IndexPosition)
+        public Student GetElement(int IndexPosition)
         {
-            return _elementsList[IndexPosition];
+            return _StudentsList[IndexPosition];
         }
     }
 }

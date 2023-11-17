@@ -1,32 +1,28 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace BehavioralDesignPatterns.IteratorDP
+﻿namespace BehavioralDesignPatterns.IteratorDP
 {
     class Iterator : IIterator
     {
-        private ConcreteAggregate collection;
-        private int index = 0;
-        private int step = 1;
+        private ConcreteAggregate _collection;
+        private int _current = 0;
+        private int _step = 1;
 
         public Iterator(ConcreteAggregate collection)
         {
-            this.collection = collection;
+            this._collection = collection;
         }
 
-        public object First()
+        public Student First()
         {
-            index = 0;
-            return collection.GetElement(index);
+            _current = 0;
+            return _collection.GetElement(_current);
         }
 
-        public object Next()
+        public Student Next()
         {
-            index += step;
+            _current += _step;
             if (HasNext())
             {
-                return collection.GetElement(index);
+                return _collection.GetElement(_current);
             }
             else
             {
@@ -36,7 +32,7 @@ namespace BehavioralDesignPatterns.IteratorDP
 
         public bool HasNext()
         {
-            return index < collection.Count;
+            return _current < _collection.Count;
         }
 
     }
