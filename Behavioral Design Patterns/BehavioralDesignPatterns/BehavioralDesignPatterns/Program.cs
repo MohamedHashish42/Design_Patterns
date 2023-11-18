@@ -88,12 +88,12 @@ namespace BehavioralDesignPatterns
 
             #region 6- Command DP
             //SwitchOptions lampSwitchOptions = new SwitchOptions();
-            ////Pass reference to the lamp instance to each command
             //ICommand switchClose = new CloseSwitchCommand(lampSwitchOptions);
             //ICommand switchOpen = new OpenSwitchCommand(lampSwitchOptions);
-            //LightRemoteControle LRC = new LightRemoteControle(switchClose, switchOpen);
-            //LRC.Open();
-            //LRC.Close();
+            //var LRC = new LightRemoteControle(switchOpen);
+            //LRC.Execute();
+            //LRC = new LightRemoteControle(switchClose);
+            //LRC.Execute();
             #endregion
 
             #region 7- Visitor DP

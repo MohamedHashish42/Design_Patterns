@@ -15,7 +15,7 @@ namespace BehavioralDesignPatterns.CommandDP
 
         public void Execute()
         {
-            _switchOption.Off();
+            _switchOption.On();
         }
     }
 }

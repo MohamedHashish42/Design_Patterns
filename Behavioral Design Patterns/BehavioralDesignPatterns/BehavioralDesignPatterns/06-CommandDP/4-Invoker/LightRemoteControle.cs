@@ -7,23 +7,17 @@ namespace BehavioralDesignPatterns.CommandDP
 
     public class LightRemoteControle
     {
-        ICommand _closedCommand;
-        ICommand _openedCommand;
+        ICommand _command;
 
-        public LightRemoteControle(ICommand closedCommand, ICommand openedCommand)
+        public LightRemoteControle(ICommand command)
         {
-            _closedCommand = closedCommand;
-            _openedCommand = openedCommand;
+            _command = command;
         }
 
-        public void Close()
+        public void Execute()
         {
-            _closedCommand.Execute();
+            _command.Execute();
         }
 
-        public void Open()
-        {
-            _openedCommand.Execute();
-        }
     }
 }
