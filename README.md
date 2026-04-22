@@ -14,8 +14,16 @@ For each patterns category, you will find
 
 2. Simple console application contains an example for each pattern derived from a this category
 
-## 🧩 First: Creational Design Patterns
 
+## 🔥Most Used in Real Projects
+
+These patterns are widely used in real-world backend applications and enterprise systems.
+
+1. [Dependency Injection](./Repositorey%20Design%20Pattern/md/DependencyInjectionPattern.md) 
+2. [Repository and Unit of Work](./Repositorey%20Design%20Pattern/md/RepositoryAndUnitofWorkDesignPattern.md) 
+
+
+## 🧩Creational Design Patterns
 ### 📌 Overview
 - [Creational Design Patterns](./Creational%20Design%20Patterns/md/CreationalDesignPatterns.md)
 
@@ -28,26 +36,9 @@ For each patterns category, you will find
 6. [Singleton Design Pattern](./Creational%20Design%20Patterns/md/SingletonDesignPattern.md)
 
 
-## Second: Repository Design Pattern 
+## 🧩 Structural Design Patterns 
 
-1. Non-Generic Repository Pattern
-2. Generic Repository Pattern
-3. Both Generic and Non-Generic Repository
-4. UnitOfWork With Repository Pattern
-
-![Repositorey Design Pattern](https://user-images.githubusercontent.com/81900786/115156135-2c572280-a083-11eb-9a5f-958a064e2904.png)
-
-## Third: Dependency Injection 
-
-1. Constructor Dependency Injection
-2. Property Dependency Injection
-3. Method Dependency Injection
-4. Dependency Injection using Unity Container in MVC
-
-![Dependency Injection](https://user-images.githubusercontent.com/81900786/115156854-a50bae00-a086-11eb-85e5-d7ff039d3f46.png)
-
-## Fourth: Structural Design Patterns 
-
+### 📂 Examples
 1. Adapter Design Pattern
 2. Facade Design Pattern
 3. Decorator Design Pattern
@@ -56,10 +47,10 @@ For each patterns category, you will find
 6. Proxy Design Pattern
 7. Flyweight Design Pattern
 
-![Structural Design Patterns](https://user-images.githubusercontent.com/81900786/120889907-c3f6dd00-c5ff-11eb-8749-e0912ee8dc45.png)
 
-## Fifth: Behavioral Design Patterns
+## 🧩 Behavioral Design Patterns
 
+### 📂 Examples
 1. Iterator Design Pattern
 2. Observer Design Pattern
 3. Chain of Responsibility Design Pattern
@@ -72,28 +63,19 @@ For each patterns category, you will find
 10. Mediator Design Pattern
 11. Memento Design Pattern
 
-![Behavioral Design Pattern](https://user-images.githubusercontent.com/81900786/128635853-bd40b547-e62d-4776-a91e-df1ac777868f.png)
 
 
-## The main source I have depended on it in this summary is
+## 📚 References
 
-https://dotnettutorials.net/course/dot-net-design-patterns/
+### 🟢 Main Source
+- [Dot Net Design Patterns - DotNetTutorials](https://dotnettutorials.net/course/dot-net-design-patterns/)
 
-but in some cases, the previous site was not obvious enough so I have used  the 
-following sites also
-
-https://springframework.guru/gang-of-four-design-patterns/
-
-https://en.wikipedia.org/wiki/Design_Patterns
-
-https://www.geeksforgeeks.org/software-design-patterns
-
-https://www.dofactory.com/net/design-patterns
-
-https://refactoring.guru/design-patterns
-
-https://www.tutorialspoint.com/design_pattern
-
-https://www.c-sharpcorner.com/UploadFile/bd5be5/design-patterns-in-net
-
-
+### 🔵 Additional References
+- [Gang of Four Design Patterns - Spring Framework Guru](https://springframework.guru/gang-of-four-design-patterns/)
+- [Design Patterns - Wikipedia](https://en.wikipedia.org/wiki/Design_Patterns)
+- [Software Design Patterns - GeeksforGeeks](https://www.geeksforgeeks.org/software-design-patterns)
+- [Design Patterns in .NET - DoFactory](https://www.dofactory.com/net/design-patterns)
+- [Design Patterns - Refactoring Guru](https://refactoring.guru/design-patterns)
+- [Design Pattern - TutorialsPoint](https://www.tutorialspoint.com/design_pattern)
+- [Design Patterns in .NET - C# Corner](https://www.c-sharpcorner.com/UploadFile/bd5be5/design-patterns-in-net)
+- [Chat GPT](https://chatgpt.com/)
