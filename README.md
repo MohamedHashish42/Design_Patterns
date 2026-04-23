@@ -38,14 +38,18 @@ These patterns are widely used in real-world backend applications and enterprise
 
 ## 🧩 Structural Design Patterns 
 
+### 📌 Overview
+- [Creational Design Patterns](./Structural%20Design%20Patterns//md/StructuralDesignPatterns.md)
+
 ### 📂 Examples
-1. Adapter Design Pattern
-2. Facade Design Pattern
-3. Decorator Design Pattern
-4. Bridge Design Pattern
-5. Composite Design Pattern
-6. Proxy Design Pattern
-7. Flyweight Design Pattern
+1. [Adapter Design Pattern](./Structural%20Design%20Patterns//md/AdapterDesignPattern.md)
+2. [Facade Design Pattern](./Structural%20Design%20Patterns//md/FacadeDesignPattern.md)
+3. [Decorator Design Pattern](./Structural%20Design%20Patterns//md/DecoratorDesignPattern.md)
+4. [Bridge Design Pattern](./Structural%20Design%20Patterns//md/BridgeDesignPattern.md)
+5. [Composite Design Pattern](./Structural%20Design%20Patterns//md/CompositeDesignPattern.md)
+6. [Proxy Design Pattern](./Structural%20Design%20Patterns//md/ProxyDesignPattern.md)
+7. [Flyweight Design Pattern](./Structural%20Design%20Patterns//md/FlyweightDesignPattern.md)
+
 
 
 ## 🧩 Behavioral Design Patterns
