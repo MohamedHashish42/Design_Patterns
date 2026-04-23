@@ -19,7 +19,7 @@ For each patterns category, you will find
 
 These patterns are widely used in real-world backend applications and enterprise systems.
 
-1. [Dependency Injection](./Repositorey%20Design%20Pattern/md/DependencyInjectionPattern.md) 
+1. [Dependency Injection](./Dependency%20Injection%20Pattern/md/DependencyInjectionPattern.md) 
 2. [Repository and Unit of Work](./Repositorey%20Design%20Pattern/md/RepositoryAndUnitofWorkDesignPattern.md) 
 
 
