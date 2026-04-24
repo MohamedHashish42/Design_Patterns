@@ -6,14 +6,25 @@
 
 # Design Patterns 
 
-This is a summary for Design Patterns in C#
+![.NET](https://img.shields.io/badge/.NET-C%23-blue)
+![Patterns](https://img.shields.io/badge/Design-Patterns-green)
+
+
+This repository provides a structured and practical guide to Design Patterns in C#, including explanations and simple console-based examples for each pattern.
 
 For each patterns category, you will find
 
-1. Separate slides folder for each pattern  derived from this category, please read the slides first
+1. Separate Markdown file for each pattern derived from this category, please read the file first.
 
-2. Simple console application contains an example for each pattern derived from a this category
+2. Simple console application contains an example for each pattern derived from a this category.
+   
 
+
+**🚀 How to Use**  
+
+1. Start with the Overview of each category  
+2. Read the pattern explanation  
+3. Check the console example  
 
 ## 🔥Most Used in Real Projects
 
@@ -39,34 +50,37 @@ These patterns are widely used in real-world backend applications and enterprise
 ## 🧩 Structural Design Patterns 
 
 ### 📌 Overview
-- [Creational Design Patterns](./Structural%20Design%20Patterns//md/StructuralDesignPatterns.md)
+- [Structural Design Patterns](./Structural%20Design%20Patterns/md/StructuralDesignPatterns.md)
 
 ### 📂 Examples
-1. [Adapter Design Pattern](./Structural%20Design%20Patterns//md/AdapterDesignPattern.md)
-2. [Facade Design Pattern](./Structural%20Design%20Patterns//md/FacadeDesignPattern.md)
-3. [Decorator Design Pattern](./Structural%20Design%20Patterns//md/DecoratorDesignPattern.md)
-4. [Bridge Design Pattern](./Structural%20Design%20Patterns//md/BridgeDesignPattern.md)
-5. [Composite Design Pattern](./Structural%20Design%20Patterns//md/CompositeDesignPattern.md)
-6. [Proxy Design Pattern](./Structural%20Design%20Patterns//md/ProxyDesignPattern.md)
-7. [Flyweight Design Pattern](./Structural%20Design%20Patterns//md/FlyweightDesignPattern.md)
+1. [Adapter Design Pattern](./Structural%20Design%20Patterns/md/AdapterDesignPattern.md)
+2. [Facade Design Pattern](./Structural%20Design%20Patterns/md/FacadeDesignPattern.md)
+3. [Decorator Design Pattern](./Structural%20Design%20Patterns/md/DecoratorDesignPattern.md)
+4. [Bridge Design Pattern](./Structural%20Design%20Patterns/md/BridgeDesignPattern.md)
+5. [Composite Design Pattern](./Structural%20Design%20Patterns/md/CompositeDesignPattern.md)
+6. [Proxy Design Pattern](./Structural%20Design%20Patterns/md/ProxyDesignPattern.md)
+7. [Flyweight Design Pattern](./Structural%20Design%20Patterns/md/FlyweightDesignPattern.md)
 
 
 
 ## 🧩 Behavioral Design Patterns
 
-### 📂 Examples
-1. Iterator Design Pattern
-2. Observer Design Pattern
-3. Chain of Responsibility Design Pattern
-4. State Design Pattern
-5. Template Method Design Pattern
-6. Command Design Pattern
-7. Visitor Design Pattern
-8. Strategy Design Pattern
-9. Interpreter Design Pattern
-10. Mediator Design Pattern
-11. Memento Design Pattern
+### 📌 Overview
+- [Behavioral Design Patterns](./Behavioral%20Design%20Patterns/md/BehavioralDesignPatterns.md)
 
+### 📂 Examples
+
+1. [Iterator Design Pattern](./Behavioral%20Design%20Patterns/md/IteratorDesignPattern.md)
+2. [Observer Design Pattern](./Behavioral%20Design%20Patterns/md/ObserverDesignPattern.md)
+3. [Chain of Responsibility Design Pattern](./Behavioral%20Design%20Patterns/md/ChainofResponsibilityDesignPattern.md)
+4. [State Design Pattern](./Behavioral%20Design%20Patterns/md/StateDesignPattern.md)
+5. [Template Method Design Pattern](./Behavioral%20Design%20Patterns/md/TemplateMethodDesignPattern.md)
+6. [Command Design Pattern](./Behavioral%20Design%20Patterns/md/CommandDesignPattern.md)
+7. [Visitor Design Pattern](./Behavioral%20Design%20Patterns/md/VisitorDesignPattern.md)
+8. [Strategy Design Pattern](./Behavioral%20Design%20Patterns/md/StrategyDesignPattern.md)
+9. [Interpreter Design Pattern](./Behavioral%20Design%20Patterns/md/InterpreterDesignPattern.md)
+10. [Mediator Design Pattern](./Behavioral%20Design%20Patterns/md/MediatorDesignPattern.md)
+11. [Memento Design Pattern](./Behavioral%20Design%20Patterns/md/MementoDesignPattern.md)
 
 
 ## 📚 References
